@@ -1,1 +1,35 @@
-
+nav{
+    background-image:url(images/headphones_hero_1.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+    width: 60rem;
+    padding: 20px;
+}
+a{
+    color: white;
+    margin-right: 10px;
+    padding: 20px;
+}
+.rem{
+    margin-left: 8rem;
+    margin-top: 12rem;
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: orangered;
+    border-radius: 100px;
+    border: 1px solid black;
+    width: 7rem;
+    padding: 10px;
+    margin-left: 23rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.rem2{
+    color: whitesmoke;
+    text-align: center;
+}
