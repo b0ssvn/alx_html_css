@@ -33,3 +33,145 @@ button{
     color: whitesmoke;
     text-align: center;
 }
+
+
+
+mobile version
+
+
+
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: linear-gradient(to bottom, #000, #333);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    header p {
+      margin: 10px 0;
+      font-size: 0.9rem;
+    }
+
+    .call-to-action {
+      background-color: #e9594c;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-align: center;
+      display: inline-block;
+      margin: 10px 0;
+    }
+
+    section {
+      margin: 30px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .feature {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 250px;
+    }
+
+    .feature img {
+      max-width: 40px;
+      margin-bottom: 10px;
+    }
+
+    .results {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .result {
+      background-color: #e9594c;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 150px;
+      text-align: center;
+    }
+
+    .contact-form {
+      background-color: white;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.8rem;
+      color: #ccc;
+    }
+
+    footer a {
+      color: #e9594c;
+      text-decoration: none;
+    }
+    .container1{
+      background-image: url(images/headphones_hero_1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+
+    @media (min-width: 768px) {
+      .features, .results {
+        justify-content: space-between;
+      }
+
+      .feature, .result {
+        max-width: 200px;
+      }
+    }
