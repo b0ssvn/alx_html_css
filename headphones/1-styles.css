@@ -1,0 +1,14 @@
+.what{
+    padding: 30px;
+    text-align: center;
+    margin-right: 25rem;
+    height: 15rem;
+}
+.icons{
+    padding: 20px;
+    image-orientation: oer;
+    display: flex;
+}
+.music, .vid, .wave, .ear{
+    padding: 40px;
+}
